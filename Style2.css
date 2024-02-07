@@ -1,0 +1,17 @@
+body{
+    background-color: azure;
+    margin: 20px;
+}
+form {
+display: table;
+padding: 10px;
+}
+#Task {
+    display: table-row;
+}
+div#Task p {
+    display: table-cell;
+    vertical-align: top;
+    padding: 3px;
+}
+
