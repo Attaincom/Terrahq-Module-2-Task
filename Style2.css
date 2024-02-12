@@ -1,10 +1,11 @@
 body{
     background-color: azure;
-    margin: 20px;
+    margin: 10px;
 }
 form {
 display: table;
 padding: 10px;
+position: center;
 }
 #Task {
     display: table-row;
@@ -12,6 +13,89 @@ padding: 10px;
 div#Task p {
     display: table-cell;
     vertical-align: top;
-    padding: 3px;
+    padding: 5px;
+    }
+
+div#Bar {
+    background-image: url(BackgroundATG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4%;
+    margin: 20px;
+    align-content: center;
+    align-items: center;
+    font-weight: bolder;
+    
+}
+div#Header {
+    text-align: center;
+}
+div#info {
+    text-align: center;
+}
+div#Bar h1 {
+}
+div#Bar h1, h5 {
+    text-align: center;
+    color: white;
+    }
+div#Bar #Buy {
+    text-align: center;
+}
+div#Bar {
+    text-align: center;
+}
+div#Bar #services {
+    margin-left: 600px;
+    }
+div#NavBar {
+        text-align: center;
+        position: center;
+}
+div#Bills {
+    display: table;
+}
+div#Airtime {
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    display: table-cell;
+}
+div#Smedata {
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    display: table-cell;
+}
+div#CableTv {
+    float: left;
+    margin-top: 50px;
+    padding: 20px;
+    display: table-cell;
+    }
+div#Education { 
+    padding: 15px;
+    margin-top: 100px;
+    float: right;
+    display: table-cell;
+   }
+div#Electricity {
+    padding: 15px;
+    margin: 20px;
+    padding: 20px;
+    display: table-cell;
+    
+float: right;
+}
+form {
+    position: center;
+    margin-top: 40%;
+    margin: 20px;
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
 }
 
